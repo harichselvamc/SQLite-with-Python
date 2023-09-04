@@ -12,10 +12,10 @@ conn.execute('''CREATE TABLE USERS
 
 print("Table created successfully")
 
-conn.execute("INSERT INTO USERS (ID,NAME) VALUES (1, 'Paul')");
-conn.execute("INSERT INTO USERS (ID,NAME) VALUES (2, 'Alice')");
-conn.execute("INSERT INTO USERS (ID,NAME) VALUES (3, 'Bob')");
-conn.execute("INSERT INTO USERS (ID,NAME) VALUES (4, 'Lauren')");
+conn.execute("INSERT INTO USERS (ID,NAME) VALUES (1, 'hari')");
+conn.execute("INSERT INTO USERS (ID,NAME) VALUES (2, 'goat')");
+conn.execute("INSERT INTO USERS (ID,NAME) VALUES (3, 'sloth')");
+conn.execute("INSERT INTO USERS (ID,NAME) VALUES (4, 'bone')");
 
 conn.commit()
 
